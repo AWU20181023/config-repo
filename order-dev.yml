@@ -1,6 +1,8 @@
 spring:
   application:
     name: order
+  rabbitmq:
+    host: 172.16.227.128
 server:
   port: 8081
 dev:
