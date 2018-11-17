@@ -3,6 +3,9 @@ spring:
     name: order
   rabbitmq:
     host: 172.16.227.128
+    port: 5672
+    username: guest
+    password: guest
 server:
   port: 8081
 dev:
